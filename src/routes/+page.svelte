@@ -1,6 +1,6 @@
 <script>
     import { fade, fly } from 'svelte/transition';
-    
+    export const prerender = true;
     
     const skills = [
       { icon: '🎨', text: 'Designer' },
